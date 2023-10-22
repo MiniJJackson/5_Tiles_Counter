@@ -7,14 +7,14 @@ export default function App() {
   return (
     <ScrollView style={styles.container}>
       <View style={styles.tilesContainer}>
-        <Tile title="tile one" />
-        <Tile title="tile two" />
-        <Tile title="tile three" />
-        <Tile title="tile four" />
-        <Tile title="tile five" />
-        <Tile title="tile six" />
-        <Tile title="tile seven" />
-        <Tile title="tile eight" />
+        <Tile title="tile one" startTeller="2" />
+        <Tile title="tile two"  startTeller="4"/>
+        <Tile title="tile three" startTeller="6"/>
+        <Tile title="tile four" startTeller="8"/>
+        <Tile title="tile five" startTeller="10" />
+        <Tile title="tile six" startTeller="12" />
+        <Tile title="tile seven" startTeller="14" />
+        <Tile title="tile eight" startTeller="16" />
         <StatusBar style="auto" />
       </View>
     </ScrollView >
